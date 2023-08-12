@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container mt-5 fade-in">
+    <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <img src="{{ url_for('static', filename='picture.jpeg') }}" class="img-thumbnail" width="400" height="500">
+        </div>
+        <div class="col-md-8">
+            <h1 class="display-4">Oussama Qouti</h1>
+            <p class="lead mb-4">I am a <span class="typed" data-typed-items="Data Scientist, Data Engineer, Future Salesforce Administrator"></span></p>
+            <p class = "lead">Welcome to my portfolio! Here, you'll find a glimpse of my journey, skills, and passion for innovation in the field of IT and data science.</p>
+            <a href="https://drive.google.com/file/d/1YqYjneXSDZhZ9MwTCLEIOp8qo_5QDPRG/view?usp=sharing" target="_blank" class="btn btn-primary btn-lg">View Resume</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
