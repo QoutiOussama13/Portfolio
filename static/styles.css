@@ -60,3 +60,14 @@ body {
         opacity: 1;
     }
 }
+
+.video-container {
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
